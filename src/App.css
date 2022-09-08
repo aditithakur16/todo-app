@@ -1,38 +1,88 @@
 .App {
+  background: linear-gradient(to right, #e8cbc0, #636fa4); 
+   color: #08175c;
+   text-align: center;
+  height: 1000px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', 'Verdana', 'sans-serif';
+  border: 1px solid rgb(52, 33, 175);
+
+}
+.container {
+  width:400px;
+  margin: auto;
+  padding:20px;
+  border-radius: 10px;
+  border: 1px solid rgb(52, 33, 175);
+  text-align: center;
+  background: linear-gradient(to right, #a770ef, #cf8bf3, #fdb99b);
+}
+ .input{
+ border: 2px solid gray;
+ height: 30px;
+}
+
+.input::placeholder{
+  color: #08175c;
+  font-weight: 500;
+  font-style: Poppins;
+  font-size: 14px;
+  letter-spacing: 0.05em;
+}
+.add-btn{
+  height: 35px;
+  padding:6px 15px;
+  color: white;
+  background-color: #08175c;
+  border-color: white;
+  font-size: 14px;
+  border-radius: 5px;
+}
+
+.reset{
+  width: 400px;
+  margin: auto;
+  margin-bottom:1rem;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: baseline;
+  justify-content: space-between;
+}
+.reset button{
+  height: 35px;
+  padding:6px 15px;
+  color: #08175c;
+  background-color: #cf8bf3;
+  font-weight: 600;
+  letter-spacing: 1px;
+  border-color: white;
+  font-size: 14px;
+  border-radius: 5px;
+}
+/* button:hover {
+  background-color: rgb(36, 229, 36);
+  border:1px solid rgb(52, 33, 175);
+  
+} */
+.child{
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.done-btn{
+  background-color: green;
   color: white;
+  border-radius: 8px;
+  padding: 6px 20px;
+  border-color: white;
+  font-size: 14px;
+  font-weight: 500;
+  margin: 0px 5px;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.remove-btn{
+  background-color: red;
+  color: white;
+  border-radius: 8px;
+  padding: 6px 20px;
+  border-color: white;
+  font-size: 14px;
+  font-weight: 500;
+  margin: 0px 5px;
 }
