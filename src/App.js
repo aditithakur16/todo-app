@@ -78,8 +78,7 @@ function App() {
         />
         &nbsp;&nbsp;
         <button className="add-btn" onClick={handleSubmit}>
-          {" "}
-          Add{" "}
+          Add
         </button>
         <h2> Task for today</h2>
         <div className="child">
