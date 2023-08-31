@@ -142,7 +142,6 @@ function App() {
           </ul>
         </div>
       </div>
-      <h3>✍made with love @d!t!😉</h3>
     </div>
   );
 }
